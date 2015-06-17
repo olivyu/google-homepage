@@ -1,0 +1,98 @@
+/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+div{
+	position: relative;
+}
+
+.header {
+	float: right;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	padding: 10px;
+}
+
+a {
+	color: #404040;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.icon {
+	position: relative;
+	padding-left: 8px;
+	padding-right: 15px;
+	top: 5px;
+}
+
+.login {
+	color: white;
+	background: #2E8AE6;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: none;
+}
+
+.center {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -125px;
+}
+
+.center img {
+	height: 95px;
+	width: 269px;
+}
+
+.center input {
+	width: 569px;
+	height: 26px;
+	margin-top: 19px;
+	border: 1px solid rbga(0,0,0,0.2);
+	margin-left: -150px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+
+.gsearch, .lucky {
+	width: 118px;
+	height: 29px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+
+.lucky {
+	margin-left: 15px;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0px;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	color: #404040;
+	text-decoration: none;
+	background: rgb(242, 242, 242);
+	height: 40px;
+	width: 100%;
+}
+
+.left_foot {
+	margin-top: 15px;
+	float: left;
+	padding-left: 20px;
+}
+
+
+.right_foot {
+	margin-top: 15px;
+	float: right;
+	padding-right: 20px;
+}
